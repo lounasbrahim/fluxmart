@@ -1,4 +1,7 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "reactjs.js",
+  "extends": "./base.json",
   "compilerOptions": {
     "typeRoots": ["node_modules/@types", "src/types"],
     "target": "ESNext",
@@ -24,14 +27,6 @@
     "baseUrl": "src",
     "paths": {
       "@assets/*": ["./src/assetsassets/*"]
-    },
-  },
-  "include": [
-    "src",
-    ".eslintrc.cjs",
-    "vite.config.ts",
-    "tailwind.config.js",
-    "postcss.config.js "
-  ], 
+    }
+  }
 }
-

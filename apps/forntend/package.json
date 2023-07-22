@@ -16,7 +16,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^25.2.3",
-    "@types/node": "^12.20.55",
+    "@types/node": "^14",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "apexcharts": "^3.35.5",
@@ -33,7 +33,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "vite",
+    "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "eject": "vite eject",
@@ -84,6 +84,8 @@
     "@vitejs/plugin-react": "^4.0.3",
     "vite": "^4.4.4",
     "vite-plugin-svgr": "^3.2.0",
-    "vite-tsconfig-paths": "^4.2.0"
+    "vite-tsconfig-paths": "^4.2.0",
+    "tsconfig": "workspace:*",
+    "config": "workspace:*"
   }
 }
